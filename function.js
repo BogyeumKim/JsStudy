@@ -163,3 +163,22 @@ const not = () => console.log('없음');
 
 
 Calculate(add2,3,5); // NAN뜬다... 타입스크립트를생각해야하나..
+
+
+function calcal(command,a,b){
+    switch (command){
+        case 'add':
+            return a+b;
+        case 'substaract':
+            return a-b;
+        case `divide`:
+            return a/b;
+        case 'multiply':
+            return a*b;
+        default:
+            console.log('없는계산식');
+            
+    }
+}
+
+console.log(calcal('add',4,4));
