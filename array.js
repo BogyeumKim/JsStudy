@@ -67,3 +67,7 @@ console.clear();
 console.log(fruits);
 console.log(fruits.indexOf('수박')); // 인덱스위치 1뜸
 console.log(fruits.includes('사과')); // 배열에 있나없나 확인 사과없으니 false뜸
+
+
+
+
