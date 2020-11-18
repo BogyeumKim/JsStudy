@@ -54,3 +54,5 @@ rabbit.jump();
 console.log(rabbit.birtDate.getDate());
 
 console.log(obj2.birtDate.getDate());
+
+
